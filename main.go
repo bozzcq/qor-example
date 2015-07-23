@@ -8,7 +8,7 @@ import (
 	"github.com/qor/qor-example/app/controllers"
 	. "github.com/qor/qor-example/app/resources"
 )
-
+//edit branch
 func main() {
 	mux := http.NewServeMux()
 	Admin.MountTo("/admin", mux)
